@@ -50,6 +50,9 @@ body {
     opacity: 1;
     color: #fdf0d5;
 }
+.fa-copy:active {
+    transform: scale(1);
+}
 
 .btn {
     margin: 20px 0 0 0;
@@ -67,10 +70,13 @@ body {
     color: #003049;
     cursor: pointer;
 }
+.btn:active {
+    transform: scale(1);
+}
 
 .alert-container {
     position: fixed;
-    width: 300px;
+    width: 400px;
     height: 50px;
     right: 20px;
     bottom: 20px;
@@ -80,6 +86,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    transition: all 0.5s ease;
 }
 
 .active.alert-container {
